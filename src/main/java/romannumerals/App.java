@@ -3,14 +3,12 @@ package romannumerals;
 import romannumerals.util.RomanNumeral;
 import java.util.Scanner; 
 import static romannumerals.util.PrintUtil.*;
-import static romannumerals.util.ScannerUtil.*;
 
 public class App {
 
 	public static void start() {
 
 		boolean keepConverting = true;
-		Scanner scanner = new Scanner(System.in);
 		
 		println("Welcome to Roman Numerals conversions!");
 		
@@ -39,8 +37,6 @@ public class App {
 					println("That option doesn't exist!");
 			}
 		}
-		
-		scanner.close();
 	}
 	
 }
