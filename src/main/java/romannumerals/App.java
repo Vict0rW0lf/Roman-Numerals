@@ -1,7 +1,7 @@
 package romannumerals;
 
 import romannumerals.util.RomanNumeral;
-import java.util.Scanner; 
+import static romannumerals.util.ScannerUtil.*;
 import static romannumerals.util.PrintUtil.*;
 
 public class App {
